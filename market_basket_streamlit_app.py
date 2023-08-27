@@ -21,7 +21,7 @@ def show_market_basket_analysis():
     st.title("Marino Lucci Market Basket Analysis")
     
     # Load the data
-    data = pd.read_csv(r'C:\Users\Haidar\Desktop\AUB\MSBA\Summer\Capstone\Data\Data_full_with_Gender.csv')
+    data = pd.read_csv('Data_full_with_Gender.csv')
     
     # Filter sales data
     data_sales = data[data['Invoice Type'] == 'Sales']
